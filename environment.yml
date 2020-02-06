@@ -1,0 +1,7 @@
+name: matbio
+
+dependencies:
+  - wget
+  - wget:
+    - -P data -nH --cut-dirs=3 -r -N -c -np https://physionet.org/files/mimiciii-demo/1.4/
+  - r-essentials
