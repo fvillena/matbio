@@ -1,8 +1,8 @@
 # Matemáticas para la Bioestadística
 
-Jocelyn Dunstan, PhD
+_Fabián Villena, MSc_
 
-Fabián Villena, MSc
+_Jocelyn Dunstan, PhD_
 
 En este repositorio cargaremos todos los recursos necesarios para la unidad de programación en `R` del curso. Este repositorio incluye en la carpeta `data` una muestra de la base de datos `MIMIC-III`, la cual será la base para los análisis realizados en este curso.
 
