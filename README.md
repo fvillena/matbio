@@ -15,8 +15,9 @@ Para la correcta reproductibilidad de los códigos que desarrollemos utilizaremo
 ### 1. Instalación de Git y clonación del repositorio
 
 * Descargar `Git` desde su página oficial: https://git-scm.com/downloads
-* Ejecutar el instalador y seguir las instrucciones.
-* Ejecutar `Git Bash`.
+* Para los usuarios de Mac preferir la opción "homebrew" y ejecutar el comando en la aplicación Terminal (consola).
+* Para usuarios de Windows, ejecutar el instalador y seguir las instrucciones. Luego ejecutar `Git Bash`.
+* Para Linux, hay una variedad de opciones dependiendo de la distribución que tiene. Puede contactar al equipo docente en caso de dudas. 
 * Escribir el comando `git clone https://github.com/fvillena/matbio.git` y ejecutarlo en esa consola.
 
 Al seguir estos pasos, se habrá creado una carpeta llamada `matbio` con todos los elementos necesarios para desarrolar el curso. Al avanzar en el curso iremos actualizando los códigos, por lo que será necesario que ejecuten periodicamente `git pull` para actualizar su copia local del repositorio con los últimos cambios.
