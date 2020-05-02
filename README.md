@@ -28,8 +28,8 @@ Al seguir estos pasos, se habrá creado una carpeta llamada `matbio` con todos l
 * Ejecutar el instalador y seguir las instrucciones.
 * Ejecutar `Anaconda Prompt`.
 * Dirigirse a la carpeta del curso con `cd matbio`
-* Escribir el comando `conda env create -f environment.yml --force` y ejecutarlo en esa consola.
-* Escribir el comando `conda activate matbio` y ejecutarlo en esa consola.
-* Escribir el comando `jupyter notebook` y ejecutarlo en esa consola.
+* Ejecutar en la consola el comando `conda env create -f environment.yml --force`.
+* Ejecutar `conda activate matbio`.
+* Ejecutar el comando `jupyter notebook`.
 
 Al seguir estos pasos habrán instalado todos los paquetes necesarios en el curso y se debe haber abierto una ventana de su navegador con la plataforma `Jupyter`, prueba crear un nuevo notebook y comienza a programar en `R`.
