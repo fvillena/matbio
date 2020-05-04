@@ -10,6 +10,8 @@ En este repositorio cargaremos todos los recursos necesarios para la unidad de p
 
 ## Preparación del ambiente de desarrollo
 
+Video de la clase: https://www.youtube.com/watch?v=fJR4FtsyTGQ
+
 Para la correcta reproductibilidad de los códigos que desarrollemos utilizaremos la herramienta `Git` para controlar los cambios que surjan a través del curso y además utilizaremos `Anaconda` como gestor de paquetes para establecer el ambiente de trabajo.
 
 ### 1. Instalación de Git y clonación del repositorio
