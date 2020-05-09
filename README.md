@@ -36,3 +36,7 @@ Al seguir estos pasos, se habrá creado una carpeta llamada `matbio` con todos l
 * Ejecutar el comando `jupyter notebook`.
 
 Al seguir estos pasos habrán instalado todos los paquetes necesarios en el curso y se debe haber abierto una ventana de su navegador con la plataforma `Jupyter`, prueba crear un nuevo notebook y comienza a programar en `R`.
+
+## Método alternativo
+
+Si no deseas o no puedes instalar las herramientas antes mencionadas, puedes utilizar el servicio de Binder, el cual genera un contenedor virtual con todo lo lo necesario para llevar a cabo las clases. Debes tener en cuenta que todos los cambios que realices en este entorno son efímeros y desaparecerán cuando termines tu sesión. Esta opción es buena si no estás en tu computador y deseas practicar rápidamente. Para acceder al Binder del curso debes presionar el botón que se encuentra al principio de este README.
