@@ -28,7 +28,7 @@ Al seguir estos pasos, se habrá creado una carpeta llamada `matbio` con todos l
 
 * Descargar `Anaconda` desde su página oficial: https://www.anaconda.com/products/individual
 * Ejecutar el instalador y seguir las instrucciones.
-* Ejecutar `Anaconda Prompt`.
+* Ejecutar `Anaconda Prompt` (o `conda` si tiene macOS).
 * Dirigirse a la carpeta del curso con `cd matbio`
 * Ejecutar en la consola el comando `conda env create -f environment.yml --force`.
 * Ejecutar `conda activate matbio`.
