@@ -1,4 +1,4 @@
 name: matbio
 
 dependencies:
-  - r-essentials=3.6.0
+  - r-essentials=3.6
