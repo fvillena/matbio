@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Laboratorio 1: Matrices}
+\author{Fabián Villena \& Jocelyn Dunstan}
+\date{Abril 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Problema}
+
+Usted es el científico de datos de un hospital en el cual se está realizando un análisis descriptivo de un grupo de pacientes. Las enfermeras y enfermeros capturadores de datos realizaron mediciones antropometricas de cada uno de los individuos y la escribieron a mano en un \textit{Case Report Form} (CRF). Posteriormente un operador traspasó cada CRF a una planilla. A usted le entregan la planilla en un archivo Excel (Tabla \ref{tab:excel}) y se le solicita analizarla. 
+
+Con sus conocimientos del lenguaje de programación \texttt{R} responda las siguientes preguntas.
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lllccc}
+\hline
+nombre    & apellido  & rut        & altura & peso & circunf\_abdominal \\ \hline
+Juan      & Pérez     & 11111111-1 & 1.63   & 77   & 0.65                      \\
+Pedro     & Pereira   & 22222222-2 & 1.53   & 78   & 0.88                      \\
+Pablo     & Gómez     & 33333333-3 & 1.90   & 91   & 0.83                      \\
+Juan      & Romero    & 44444444-4 & 1.80   & 138  & 1.20                      \\
+María     & Silva     & 55555555-5 & 1.45   & 52   & 0.63                      \\
+Felipe    & Ruiz      & 66666666-6 & 1.80   & 40   & 0.67                      \\
+Óscar     & Díaz      & 77777777-7 & 1.71   & 75   & 1.12                      \\
+Eliana    & Quiroga   & 88888888-8 & 1.75   & 90   & 0.90                      \\
+Camila    & Sosa      & 99999999-9 & 1.68   & 123  & 0.70                      \\
+Constanza & Fernández & 00000000-0 & 1.66   & 60   & 0.88                      \\ \hline
+\end{tabular}
+\caption{Planilla Excel}
+\label{tab:excel}
+\end{table}
+
+\section{Preguntas}
+
+\begin{enumerate}
+    \item Construya una matriz que contenga sólo las mediciones antropométricas asociadas a los pacientes.
+    \item Construya una matriz que contenga sólo los datos personales de los pacientes.
+    \item Calcule un vector que contenga el índice de masa corporal de cada uno de los pacientes.
+    \item Haga un subconjunto de la matriz de datos personales de los pacientes que sólo muestre el nombre y apellido de los pacientes.
+    \item (opcional) Calcule un vector con valores \texttt{logical} que muestre si el paciente está en el peso normal o no.
+\end{enumerate}
+
+\end{document}
