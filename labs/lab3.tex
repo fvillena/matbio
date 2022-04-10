@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{attachfile}
+
+\title{Laboratorio 3: Visualización}
+\author{Fabián Villena \& Jocelyn Dunstan}
+\date{Abril 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Problema}
+
+La pandemia mundial por la enfermedad producida por el virus SARS-CoV-2 ha sido un problema que ha traído devastadoras consecuencias. Los países han tenido que generar estrategias tendientes a disminuir los contagios del virus a través de la restricción de la movilidad y al mismo tiempo intentar no desacelerar la productividad.
+
+Para poder monitorear el nivel de riesgo de contagiosidad en un momento específico y tomar decisiones sobre la restricción de la movilidad se utiliza la tasa de positividad, la cual está calculada por 
+
+\begin{equation}
+\textrm{Tasa de positividad}(t) = \frac{\textrm{Cantidad de pruebas positivas en el día } t}{\textrm{Cantidad de pruebas realizadas en el día } t}.
+\end{equation}
+
+Gracias al creciente interés en la ciencia de datos, muchas organizaciones comenzaron a publicar los datos asociados a la pandemia. En el caso de Chile, los Ministerios de Salud y de Ciencia, Tecnología, Conocimiento e Innovación fueron los encargados de liberar estos datos.
+
+En el siguiente se encuentra el Data Product 65 que contiene la tasa de positividad de la prueba RT-PCR para el virus SARS-CoV-2 por comuna.
+
+\begin{center}
+    \url{https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto65/PositividadPorComuna_std.csv}
+\end{center}
+
+Con sus conocimientos del lenguaje de programación R se le solicita analizar el conjunto de datos y realizar las siguientes visualizaciones.
+
+\section{Visualizaciones solicitadas}
+
+\begin{enumerate}
+    \item Tasa de positividad en la comuna de La Cisterna a lo largo de toda la pandemia.
+    \item Tasa de positividad en la comuna de La Cisterna a lo largo de toda la pandemia señalando a qué altura está la tasa de positividad del 5 \%.
+    \item Cantidad de pruebas positivas y cantidad de pruebas realizadas en la comuna de Santiago Centro a lo largo de la pandemia.
+    \item Tasa de positividad en la comuna de Santiago Centro en los inviernos de los años 2020 y 2021.
+    \item (opcional) Última tasa de positividad para cada comuna de la Región del Maule.
+\end{enumerate}
+
+\end{document}
