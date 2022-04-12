@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+
+\usepackage{filecontents}
+
+\begin{filecontents}{jobname.bib}
+    @article{Sobar2016,
+        doi = {10.1166/asl.2016.7980},
+        url = {https://doi.org/10.1166/asl.2016.7980},
+        year = {2016},
+        month = oct,
+        publisher = {American Scientific Publishers},
+        volume = {22},
+        number = {10},
+        pages = {3120--3123},
+        author = {Sobar and Rizanda Machmud and Adi Wijaya},
+        title = {Behavior Determinant Based Cervical Cancer Early Detection with Machine Learning Algorithm},
+        journal = {Advanced Science Letters}
+    }
+\end{filecontents}
+
+\usepackage[backend=bibtex]{biblatex} 
+\addbibresource{jobname.bib}
+
+\title{Laboratorio 4: Inverencia}
+\author{Fabián Villena \& Jocelyn Dunstan}
+\date{Abril 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Problema}
+
+Una de las características de la ciencia moderna es la disponibilización por parte de los autories de los datos utilizados en las publicaciones el aseguramiento la reproducibilidad de los resultados y así mejorar la validez externa de las conclusiones. Esto también conlleva ciertos desafíos éticos en el área de la salud debido a la sensibilidad de ciertos datos, desafios los cuales se pueden sobrellevar a través de un proceso de anonimización.
+
+\citeauthor{Sobar2016} analizaron la relación que existe entre ciertos atributos de riesgo obtenidos a través de un cuestionario estándar y el desarrollo de cáncer cervical. Estos autores liberaron su conjunto de datos, el cual se encuentra adjunto.
+
+Se le solicita verificar si existen diferencias estadísticamente significativas entre el grupo enfermo y sano respecto a cada uno de los atributos medidos.
+
+\printbibliography
+
+\end{document}
