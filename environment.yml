@@ -1,4 +1,4 @@
 name: matbio
 
 dependencies:
-  - r-base=3.6
+  - r-base=4.3
